@@ -52,8 +52,9 @@ Para llevar al servidor para presentar un dev o pasar a producción considerar:
 - Comprimir las imágenes nuevas.
 
 ## Construido con 🛠️
-- Bootstrap 5
-- Jquery (para el script que redirecciona el form al gracias)
+- Bootstrap 5.
+- Google font Montserrat utilizada.
+- Jquery (para el script que redirecciona el form al gracias).
 
 ## Autor ✒️
 Javier Madrid Velasco
