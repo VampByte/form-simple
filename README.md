@@ -51,7 +51,7 @@ Para llevar al servidor para presentar un dev o pasar a producción considerar:
 - Excluir la carpeta **node_modules**.
 - Comprimir las imágenes nuevas.
 
-Construido con 🛠️
+## Construido con 🛠️
 - Bootstrap 5
 - Jquery (para el script que redirecciona el form al gracias)
 
