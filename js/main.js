@@ -1,8 +1,8 @@
-/*! descubriendo-destinos-turisticos - v0.0.1 - 2022-02-15
+/*! form-simple - v1.0 - 2022-02-23
 *
 * @Author  USIL
 * @Email   <webmaster@usil.edu.pe>
-* @version 0.0.1
+* @version 1.0
 *
 */
 /*!
