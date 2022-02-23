@@ -1,0 +1,32 @@
+//	VARIABLES
+
+
+$mainLight: #35aa97;
+$mainDark: #001859;
+
+$mainColor3: #F8F8F8;
+
+$graciasText: #0c0c8d;
+
+$white: #ffffff;
+$black: #000000;
+
+.mainLight{color: $mainLight;}
+.mainDark{color: $mainDark;}
+.graciasText{color: $graciasText;}
+
+.white{color: $white;}
+.black{color: $black;}
+
+
+$mapPadding: (
+    "section": 6rem 0,
+    "section-xs": 3rem 0,
+);
+
+$mapFontsize: (
+    "h2": 2rem,
+    "h2-xs": 6vw,
+    "h3": 2.8rem,
+    "h3-xs": 8vw,
+);

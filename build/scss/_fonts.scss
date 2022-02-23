@@ -1,0 +1,88 @@
+//	FUENTES
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+.fontMontserratLight{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+.fontMontserratRegular{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.fontMontserratMedium{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.fontMontserratSemiBold{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.fontMontserratBold{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.fontMontserratExtraBold{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+.fontMontserratBlack{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+%fontMontserratLight{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+%fontMontserratRegular{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+%fontMontserratMedium{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+%fontMontserratSemiBold{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+%fontMontserratBold{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+%fontMontserratExtraBold{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+%fontMontserratBlack{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+/* Custom Fonts */
+
+
+
+@font-face {
+    font-family: 'monument_extendedultrabold';
+    src: url('../fonts/monumentextended-ultrabold-webfont.woff2') format('woff2'),
+         url('../fonts/monumentextended-ultrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.fontMonumentUltraBold{font-family: 'monument_extendedultrabold';}
+%fontMonumentUltraBold{font-family: 'monument_extendedultrabold';}
+
+@font-face {
+    font-family: 'monument_extendedregular';
+    src: url('../fonts/monumentextended-regular-webfont.woff2') format('woff2'),
+         url('../fonts/monumentextended-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.fontMonumentRegular{font-family: 'monument_extendedregular';}
+%fontMonumentRegular{font-family: 'monument_extendedregular';}
+

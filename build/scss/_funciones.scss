@@ -1,0 +1,37 @@
+/* FUNCIONES */
+
+@function mapColor($key) {
+    @if map-has-key($mapColor, $key) {
+      @return map-get($mapColor, $key);
+    }
+
+    @warn "Unknown `#{$key}` in $mapColor.";
+    @return null;
+}
+
+@function mapFontsize($key) {
+    @if map-has-key($mapFontsize, $key) {
+      @return map-get($mapFontsize, $key);
+    }
+
+    @warn "Unknown `#{$key}` in $mapFontsize.";
+    @return null;
+}
+
+@function mapPadding($key) {
+    @if map-has-key($mapPadding, $key) {
+      @return map-get($mapPadding, $key);
+    }
+
+    @warn "Unknown `#{$key}` in $mapPadding.";
+    @return null;
+}
+
+/* Funcion para Maps anidados */
+
+@function mapGet($map, $keys...) {
+    @each $key in $keys {
+        $map: map-get($map, $key);
+    }
+    @return $map;
+}

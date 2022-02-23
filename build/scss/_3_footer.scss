@@ -1,0 +1,24 @@
+.footer{
+    background-color: $mainDark;
+    color: $white;
+    padding: 1rem 0;
+
+    .footerH2{
+        @extend %fontMontserratBold;
+        font-size: 1.1rem;
+    }
+
+    .footerP{
+        @extend %fontMontserratLight;
+        margin-bottom: 0;
+        @include xs(){font-size: .9rem;}
+    }
+
+    a{
+        color:$white;
+        text-decoration: none;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}

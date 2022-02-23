@@ -1,0 +1,144 @@
+.formulario{
+    padding: mapPadding("section");
+    color: $mainDark;
+	background-color: $white;
+    position: relative;
+	@include xxxl(){
+		display: flex;
+		align-items: center;
+	}
+    @include xs(){padding: mapPadding("section-xs");}
+
+    .formularioH2{
+        @extend %H2;
+        color: $mainDark;
+    }
+
+    .rowContent{
+        margin-top: 2rem;
+    }
+
+	.boxAlert{
+		background-color: $white;
+		color: $graciasText;
+		margin: 0 auto;
+		display: table;
+		.graciasH2{
+			@extend %H2;
+			font-size: 1.2rem;
+			margin-bottom: .5rem;
+		}
+		.graciasP{
+			@extend %fontMontserratRegular;
+			margin-bottom: 0;
+			@include xs(){font-size: .9rem;}
+		}
+	}
+}
+
+.form {
+	position: relative;
+	display: table;
+	margin: 0 auto;
+
+    .formularioH3{
+        @extend %fontMontserratBold;
+        font-size: 1.3rem;
+        margin-top: 1rem;
+    }
+
+	.form-control {
+		font-size: 1rem;
+		text-align: left;
+		/* background-color: #f2f2f2; */
+		border:  none;
+		border-radius: 1rem;
+		outline: none;
+		color: #6c757d;
+		@include xs(){font-size: 4vw;}
+
+		&::placeholder {
+			color: #6c757d;
+		}
+
+		&:focus{
+			background-color: $white;
+			color: $mainDark;
+		}
+	}
+
+	/* IE11 hide native button */
+	select::-ms-expand {
+		display: none;
+	}
+
+	.selectdiv{
+		position: relative;
+		&:after{
+			content:"";
+			position: absolute;
+    		pointer-events: none;
+			right: 0px;
+			top: 0px;
+			width: 55px;
+			height: 100%;
+			background-image: url(../images/select-arrow.png);
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+	}
+
+	select {
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+
+		text-align-last: left;
+		optgroup{color: $black;}
+		option{color: $black;}
+	}
+
+	#appdpdc {
+		margin-top: .5rem;
+		a {
+			color: $mainDark;
+			text-decoration: none;
+			font-size: .9rem;
+		}
+
+		.form-check {
+			position: relative;
+		}
+
+		input {
+			left: 2em;
+			top: .25em;
+		}
+
+		.form-check-label.silform-check-label{
+			color: $mainDark;
+		}
+	}
+
+	.btn-CTA{
+		@extend %CTA;
+		@extend %arrowCTA;
+	}
+
+	/* &.formGracias{
+		color: $mainDark;
+		margin: 0 3rem;
+		@include lg(){margin: 0 3rem;}
+		@include md(){margin: 0;}
+		@include sm(){margin: 0;}
+		@include xs(){margin: 0;}
+		.graciasH2{
+			@extend %H2;
+			margin-bottom: 2rem;
+		}
+		.graciasP{
+			@extend %fontMontserratRegular;
+			margin: 1rem;
+		}
+	} */
+}

@@ -1,0 +1,24 @@
+//	PORTADA
+.portada {
+
+	.boxInfo{
+		background-color: $mainDark;
+		color: $white;
+		padding: 1rem 0;
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.gridInfo{
+		display: grid;
+		grid-template-columns: .5rem max-content;
+		grid-gap: 1rem;
+		align-items: center;
+		justify-content: center;
+		margin: .5rem 0;
+
+		.infoP{
+			margin-bottom: 0;
+		}
+	}
+}
